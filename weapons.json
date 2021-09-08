@@ -1,0 +1,371 @@
+{
+  "weapons": {
+
+    "sword": {
+      "damage": 10.0,
+      "range": 1.0,
+      "requires": null,
+      "cooldown": 2.0,
+      "effects": {}
+    },
+
+    "daggers": {
+      "damage": 5.0,
+      "range": 0.6,
+      "requires": null,
+      "cooldown": 0.8,
+      "effects": {}
+    },
+
+    "katana": {
+      "damage": 9.0,
+      "range": 1.2,
+      "requires": null,
+      "cooldown": 2.0,
+      "effects": {}
+    },
+
+    "knife": {
+      "damage": 15.0,
+      "range": 0.3,
+      "requires": null,
+      "cooldown": 3.0,
+      "effects": {}
+    },
+
+    "scythe": {
+      "damage": 60.0,
+      "range": 1.4,
+      "requires": null,
+      "cooldown": 20.0,
+      "effects": {}
+    },
+
+    "whip": {
+      "damage": 7.0,
+      "range": 3.0,
+      "requires": null,
+      "cooldown": 4.0,
+      "effects": {}
+    },
+
+    "baseball bat": {
+      "damage": 10.0,
+      "range": 1.4,
+      "requires": null,
+      "cooldown": 6.0,
+      "effects": {"knockback": 4.0}
+    },
+
+    "anvil": {
+      "damage": 100.0,
+      "range": 0.0,
+      "requires": null,
+      "cooldown": 120.0,
+      "effects": {"stun": 20.0, "double-ended": [50.0, 80.0], "inaccurate": 50, "one-use": true}
+    },
+
+    "torch": {
+      "damage": 2.0,
+      "range": 0.5,
+      "requires": null,
+      "cooldown": 2.5,
+      "effects": {"flame": 9.0}
+    },
+
+    "throwing knife": {
+      "damage": 6.0,
+      "range": 17.0,
+      "requires": null,
+      "cooldown": 4.0,
+      "effects": {"one-use": true}
+    },
+
+    "arrow": {
+      "damage": 8.0,
+      "range": 35.0,
+      "requires": "bow",
+      "cooldown": 0.0,
+      "effects": {"one-use": true}
+    },
+
+    "flame arrow": {
+      "damage": 8.0,
+      "range": 35.0,
+      "requires": "bow",
+      "cooldown": 1.5,
+      "effects": {"flame": 4.0, "one-use": true}
+    },
+
+    "ice arrow": {
+      "damage": 6.0,
+      "range": 35.0,
+      "requires": "bow",
+      "cooldown": 1.0,
+      "effects": {"freeze": 1.5, "one-use": true}
+    },
+
+    "quarrel": {
+      "damage": 10.0,
+      "range": 45.0,
+      "requires": "crossbow",
+      "cooldown": 0.0,
+      "effects": {"one-use": true}
+    },
+
+    "fork": {
+      "damage": 2.0,
+      "range": 0.2,
+      "requires": null,
+      "cooldown": 0.5,
+      "effects": {}
+    },
+
+    "boxing gloves": {
+      "damage": 6.0,
+      "range": 0.5,
+      "requires": null,
+      "cooldown": 1.0,
+      "effects": {"stun": 0.2, "crit": 20.0}
+    },
+
+    "rat": {
+      "damage": 5.0,
+      "range": 3.0,
+      "requires": null,
+      "cooldown": 4.0,
+      "effects": {"poison": 3.0, "consumed": 1, "double-ended": 5.0}
+    },
+
+    "snake": {
+      "damage": 15.0,
+      "range": 4.0,
+      "requires": "rat",
+      "cooldown": 6.0,
+      "effects": {"poison": 6.0, "double-ended": 10.0}
+    },
+
+    "death trumpet": {
+      "damage": 6.0,
+      "range": 10.0,
+      "requires": "bard",
+      "cooldown": 2.0,
+      "effects": {"stun": 1.5}
+    },
+
+    "shockwave i": {
+      "damage": 0.0,
+      "range": 4.0,
+      "requires": "mage i",
+      "cooldown": 8.0,
+      "effects": {"stun": 2.0}
+    },
+
+    "shockwave ii": {
+      "damage": 4.0,
+      "range": 6.0,
+      "requires": "mage i",
+      "cooldown": 12.0,
+      "effects": {"stun": 3.0, "knockback": 1.0}
+    },
+
+    "shockwave iii": {
+      "damage": 6.0,
+      "range": 8.0,
+      "requires": "mage ii",
+      "cooldown": 20.0,
+      "effects": {"stun": 4.0, "knockback": 2.0, "splash": 3}
+    },
+
+    "laser gun": {
+      "damage": 2.0,
+      "range": 1000.0,
+      "requires": null,
+      "cooldown": 8.0,
+      "effects": {"accurate": true}
+    },
+
+    "grenade": {
+      "damage": 50.0,
+      "range": 12.0,
+      "requires": null,
+      "cooldown": 60.0,
+      "effects": {"knockback": 4.0, "splash": 4, "double-ended": [70.0, 50.0], "one-use": true}
+    },
+
+    "thunderbolt i": {
+      "damage": 10.0,
+      "range": 12.0,
+      "requires": "mage ii",
+      "cooldown": 180.0,
+      "effects": {"stun": 2.5, "accurate": true, "splash": 5, "double-ended": [60.0, 20.0]}
+    },
+
+    "snowball": {
+      "damage": 0.2,
+      "range": 16.0,
+      "requires": null,
+      "cooldown": 5.0,
+      "effects": {"freeze": 3.0, "one-use": true}
+    },
+
+    "sheperd's crook": {
+      "damage": 5.0,
+      "range": 1.5,
+      "requires": null,
+      "cooldown": 2.0,
+      "effects": {}
+    },
+
+    "herd": {
+      "damage": 8.0,
+      "range": 10.0,
+      "requires": "sheperd's crook",
+      "cooldown": 180.0,
+      "effects": {}
+    },
+
+    "stampede": {
+      "damage": 15.0,
+      "range": 30.0,
+      "requires": "sheperd's crook",
+      "cooldown": 420.0,
+      "effects": {"knockback": 5, "splash": 6}
+    },
+
+    "swarm": {
+      "damage": 10.0,
+      "range": 25.0,
+      "requires": "sheperd's crook",
+      "cooldown": 300.0,
+      "effects": {"splash": 10}
+    },
+
+    "baguette": {
+      "damage": 5.0,
+      "range": 1.0,
+      "requires": null,
+      "cooldown": 2.0,
+      "effects": {"heal": 20.0}
+    },
+
+    "medusa's stare": {
+      "damage": 1000.0,
+      "range": 12.0,
+      "requires": null,
+      "cooldown": 180.0,
+      "effects": {"double-ended": [60.0, 1000.0]}
+    },
+
+    "mjolnir": {
+      "damage": 20.0,
+      "range": 0.7,
+      "requires": null,
+      "cooldown": 5.0,
+      "effects": {"splash": 4}
+    },
+
+    "rock spikes i": {
+      "damage": 40.0,
+      "range": 7.0,
+      "requires": "mage ii",
+      "cooldown": 2.0,
+      "effects": {"inaccurate": 50, "double-ended": [40.0, 40.0]}
+    },
+
+    "Cthulhu": {
+      "damage": 120.0,
+      "range": 20.0,
+      "requires": "book of creation",
+      "effects": {"splash": 20, "double-ended": [90.0, 120.0]}
+    }
+
+  },
+
+
+
+  "items": {
+
+    "bandage": {
+      "requires": null,
+      "cooldown": 8.0,
+      "effects": {"heal": 40.0, "": true, "one-use": true}
+    },
+
+    "bow": {
+      "requires": null,
+      "cooldown": 6.0,
+      "effects": {}
+    },
+
+    "crossbow": {
+      "requires": null,
+      "cooldown": 9.0,
+      "effects": {}
+    },
+
+    "camera": {
+      "requires": null,
+      "cooldown": 10.0,
+      "effects": {"learn": [40.0, 8]}
+    },
+
+    "shield": {
+      "requires": null,
+      "cooldown": 7.0,
+      "effects": {"protection": 40.0}
+    },
+
+    "book of creation": {
+      "requires": "storyteller",
+      "cooldown": 10.0,
+      "effects": {"learn": [20.0, 10]}
+    },
+
+    "camp": {
+      "requires": null,
+      "cooldown": 1200.0,
+      "effects": {"heal": 50.0, "team boost": 20.0, "splash": 7, "learn": [15.0, 1], "protection": 20.0}
+    }
+
+  },
+
+
+
+  "skills": {
+    "bard": {"team boost": 10.0},
+    "sneak": {"invisible": 5.0, "dodge": [20.0, 2], "cooldown": 60.0},
+    "mage i": {},
+    "mage ii": {},
+    "parry": {"parry": true},
+    "storyteller": {"team boost": 10.0}
+  },
+
+
+
+  "effects": {
+    "damage": "Deals x damage to your opponent",
+    "range": "Only affects enemies within x metres",
+    "requires": "Can only be used if the user has x",
+    "cooldown": "Only can be used once every x seconds",
+    "heal": "Heals the user for x health",
+    "consumed": "When something that requires this item is used x times, this item is consumed",
+    "flame": "Deals a total of approximately x damage over time to your opponent",
+    "poison": "Deals a total of approximately x damage over time to your opponent",
+    "inaccurate": "Has an x% chance of not hitting your opponent",
+    "accurate": "Is guaranteed to hit your opponent no matter what, unless they are out of range",
+    "freeze": "Slows down your opponent by approximately x km/h, effect wears off faster when it is weaker",
+    "crit": "Has an x% chance of doing double damage",
+    "stun": "The opponent cannot do anything for x seconds",
+    "double-ended": "Has an x% chance of doing y damage to the user",
+    "team boost": "Your teammates deal x% more damage",
+    "invisible": "Opponents cannot see you for x seconds",
+    "splash": "Also affects other opponents/teammates within x metres",
+    "learn": "The user gains a temporary x% damage bonus against the opponent after y uses, does not stack",
+    "knockback": "Pushes your opponent back x metres",
+    "dodge": "You get an x% chance of dodging the next y attacks",
+    "parry": "You may block an attack with a melee weapon that is stronger than the attack",
+    "protection": "Reduces damage from all attacks by x%",
+    "one-use": "Can only be used once, then is lost."
+  }
+}
